@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <figure>
+        <img src="img/logo.png" alt="logo" />
+      </figure>
+    </header>
+    <main>
+      <section class="left-area">
+        <textarea
+          id="input-text"
+          placeholder="Ingresa el texto......."
+        ></textarea>
+        <div class="btns-content">
+          <div class="alert-text">
+            <img src="img/signo.png" alt="alerta" />
+            <span>Solo letras minúsculas y sin acentos</span>
+          </div>
+          <button class="btn-encript" id="btn-encript">Encriptar</button>
+          <button class="btn-desencript" id="btn-desencript">
+            Desencriptar
+          </button>
+        </div>
+      </section>
+      <section class="right-area">
+        <div class="person-logo" id="personid">
+          <img src="img/person.png" alt="person" />
+          <div class="text-person">
+            <h1>No hay texto</h1>
+            <h2>Ingresa el texto que desees encriptar o desencriptar</h2>
+          </div>
+        </div>
+        <div class="area-output">
+          <textarea id="output-text" disabled></textarea>
+          <button id="btn-copy">Copiar</button>
+        </div>
+      </section>
+    </main>
+    <footer>Milton Gari - 27/08/2024</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
